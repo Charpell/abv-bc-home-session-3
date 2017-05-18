@@ -1,0 +1,22 @@
+{
+  "name": "abv-bc-home-session-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Charpell/abv-bc-home-session-3.git"
+  },
+  "author": "Ebuka Umeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Charpell/abv-bc-home-session-3/issues"
+  },
+  "homepage": "https://github.com/Charpell/abv-bc-home-session-3#readme",
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
