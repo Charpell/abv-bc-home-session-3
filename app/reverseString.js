@@ -1,7 +1,7 @@
 let reverseString  = function (str){
 	let temp = '';
 	let i = str.length;
-	isTrue = true;
+	let isTrue = true;
 	
 
 	if (str === ''){
