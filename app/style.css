@@ -1,0 +1,90 @@
+body        {
+                background-color:  #e6e6e6;
+            }
+#header     {
+                color:white;
+                background-color: black;
+                padding: 4px;
+                margin-bottom: 30px;
+                padding-left: 25px;}
+#content    {
+                margin: 5px auto 5px auto;
+                height: 800px;
+                text-align: center;
+            }
+img         {
+                width: 100%;
+                border-radius: 10px;
+                margin: 3px 0px 3px 0px;
+            }
+.img-class  {
+                margin-bottom: 60px;
+            }
+button      {
+                width: 100%;
+                border-radius: 10px;
+                height: 50px;
+                color: white;
+                font-size: 16px;
+                font-weight: bold;
+            }
+#footer     {
+                clear: both;
+                text-align: center;
+                color: white;
+                background-color: black;
+                height: 30px;
+                font-size: 16px;
+                font-weight: bold;
+            }
+p           {
+                padding-top: 6px;
+            }
+#calculator {
+                background-color: #006600;
+                border: 2px solid #006600
+            }
+#society    {
+                background-color: #666600;
+                border: 2px solid #666600
+            }
+#freelance  {
+                background-color: #660000;
+                border: 2px solid #660000
+            }
+#developer  {
+                background-color: #000066;
+                border: 2px solid #000066
+            }
+#calculator:hover   {
+                        background-color:  #009900;
+                        border: 2px solid  #009900
+                    }
+#society:hover      {
+                        background-color:  #999900;
+                        border: 2px solid  #999900
+                    }
+#freelance:hover    {
+                        background-color:  #990000;
+                        border: 2px solid #990000
+                    }
+#developer:hover    {
+                        background-color: #000099;
+                        border: 2px solid  #000099
+                    }
+@media screen and (min-width: 1300px){
+                #content            {width: 65%}
+                .img-left       {float: left;}
+                .img-right  {float: right;}
+}
+@media screen and (max-width: 1300px) and (min-width: 900px) {
+                #content            {width: 94%;}
+                .img-left       {float: left;}
+                .img-right  {float: right;}
+}
+@media screen and (max-width: 900px) {
+                #content            {width: 90%;}
+                .img-left       {float: left;}
+                .img-right  {float: left;}
+}
+
